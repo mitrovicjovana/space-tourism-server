@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry
                 .addMapping("/api/**")
-                .allowedOrigins("https://space--tourism.herokuapp.com/**")
+                .allowedOrigins("https://space--tourism.herokuapp.com/")
                 .allowedMethods("*")
                 .allowedHeaders("*")
                 .allowCredentials(true)
